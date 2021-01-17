@@ -135,6 +135,12 @@ call s:h("Identifier", s:red, "", "")
 call s:h("Function", s:blue, "", "")
 call s:h("Statement", s:purple, "", "")
 
+" Special for js files
+call s:h("jsFuncCall", s:cyan, "", "")
+call s:h("jsObjectFuncName", s:cyan, "", "")
+call s:h("jsThis", s:purple, "", "")
+call s:h("jsGlobalNodeObjects", s:yellow, "", "")
+
 call s:h("Conditional", s:purple, "", "")
 call s:h("Repeat", s:purple, "", "")
 call s:h("Label", s:purple, "", "")
