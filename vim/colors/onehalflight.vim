@@ -22,6 +22,7 @@ let s:red         = { "gui": "#e45649", "cterm": "167" }
 let s:green       = { "gui": "#50a14f", "cterm": "71" }
 let s:yellow      = { "gui": "#c18401", "cterm": "136" }
 let s:blue        = { "gui": "#0184bc", "cterm": "31" }
+let s:lightBlue   = { "gui": "#005f87", "cterm": "24" }
 let s:purple      = { "gui": "#a626a4", "cterm": "127" }
 let s:cyan        = { "gui": "#0997b3", "cterm": "31" }
 let s:white       = { "gui": "#fafafa", "cterm": "231" }
@@ -140,6 +141,7 @@ call s:h("jsFuncCall", s:cyan, "", "")
 call s:h("jsObjectFuncName", s:cyan, "", "")
 call s:h("jsThis", s:purple, "", "")
 call s:h("jsGlobalNodeObjects", s:yellow, "", "")
+call s:h("jsNull", s:lightBlue, "", "")
 
 call s:h("Conditional", s:purple, "", "")
 call s:h("Repeat", s:purple, "", "")
