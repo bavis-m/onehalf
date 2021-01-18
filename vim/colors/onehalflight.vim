@@ -142,6 +142,7 @@ call s:h("jsObjectFuncName", s:cyan, "", "")
 call s:h("jsThis", s:purple, "", "")
 call s:h("jsGlobalNodeObjects", s:yellow, "", "")
 call s:h("jsNull", s:lightBlue, "", "")
+call s:h("jsOperatorKeyword", s:purple, "", "")
 
 call s:h("Conditional", s:purple, "", "")
 call s:h("Repeat", s:purple, "", "")
